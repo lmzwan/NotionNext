@@ -34,11 +34,12 @@ export default function Live2D() {
     }
   }, [theme])
 
-  function handleClick() {
-    if (petSwitchTheme) {
-      switchTheme()
-    }
-  }
+  // 点击宠物切换主题
+  // function handleClick() {
+  //   if (petSwitchTheme) {
+  //     switchTheme()
+  //   }
+  // }
 
   if (!showPet) {
     return <></>
